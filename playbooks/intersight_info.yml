@@ -19,7 +19,7 @@
         <<: *api_info
         server_names:
       register: servers
-      env:
+      environment:
         ANSIBLE_DEBUG: 1
 
     - name: Print server count
