@@ -3,6 +3,7 @@
   hosts: localhost
   connection: local
   gather_facts: false
+  no_log: false
   vars:
     # Create an anchor for api_info that can be used throughout the file
     api_info: &api_info
@@ -19,7 +20,6 @@
         <<: *api_info
         server_names:
       register: servers
-      no_log: false
       environment:
         ANSIBLE_DEBUG: 1
 
