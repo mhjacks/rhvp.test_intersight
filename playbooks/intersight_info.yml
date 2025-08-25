@@ -19,11 +19,11 @@
 
     - name: Set filename
       ansible.builtin.debug:
-        keyfile: "{{ lookup('env', 'INTERSIGHT_API_PRIVATE_KEY') }}"
+        keyfile_name: "{{ lookup('env', 'INTERSIGHT_API_PRIVATE_KEY') }}"
 
     - name: Debug
       ansible.builtin.debug:
-        msg: "{{ lookup('file', keyfile) }}"
+        msg: "{{ lookup('file', keyfile_name) }}"
 
     # Get server data
     - name: Get all servers
