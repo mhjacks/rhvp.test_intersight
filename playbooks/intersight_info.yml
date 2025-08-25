@@ -19,6 +19,7 @@
         <<: *api_info
         server_names:
       register: servers
+      no_log: false
       environment:
         ANSIBLE_DEBUG: 1
 
