@@ -1,0 +1,31 @@
+{
+ "collection_info": {
+  "namespace": "rhvp",
+  "name": "test_intersight",
+  "version": "0.1.0",
+  "authors": [
+   "Martin Jackson <mhjacks@redhat.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "infrastructure",
+   "cloud"
+  ],
+  "description": "Utilities for installing AAP Automation Mesh and VPN for Validated Patterns",
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {},
+  "repository": "https://github.com/mhjacks/rhvp.test_intersight",
+  "documentation": "https://validatedpatterns.io",
+  "homepage": "https://validatedpatterns.io",
+  "issues": "https://"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "493475ab134d5802f6ddf655bfb24ef51e7076fb0529dbad84a95a957f336340",
+  "format": 1
+ },
+ "format": 1
+}

@@ -1,0 +1,439 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1a88e52e1614ca6d158098224ef475f83db91c3dbd2efce75c03d6816e454701",
+   "format": 1
+  },
+  {
+   "name": "playbooks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/assign_server_to_profile.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6201c968486bae4c5867b38bd6b0238d2c81fbc162e2c1ff5f4dcca0481a03",
+   "format": 1
+  },
+  {
+   "name": "playbooks/attach_vhba_template.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d2147e3e7e3dd2bebb675c2d733d03e07ce459d11894e10cdf0f287182a4df95",
+   "format": 1
+  },
+  {
+   "name": "playbooks/claim_device.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "10a968dacc84c90faa57f850b4c0dd05955b35fb0ccc163f34145a9b00136d17",
+   "format": 1
+  },
+  {
+   "name": "playbooks/cos_server_policies_and_profiles.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d98263f3628b854fc285ad475e33575dae90181b41cc1b8f44f3d7b548e439db",
+   "format": 1
+  },
+  {
+   "name": "playbooks/count_vms.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6d4c73d070fa70eead9a41b3f4062398586d6ddca57a077a208d827baba110ae",
+   "format": 1
+  },
+  {
+   "name": "playbooks/deploy_server_profiles.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53d70556ee6635112d457cd26bd064e15e7f2d1d5ec38f42e5fa87bd099c1630",
+   "format": 1
+  },
+  {
+   "name": "playbooks/derive_profiles.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bef73bbcaa3a11b14138e724c437d74f0c5b2be10e05671920ab7c6a1c008172",
+   "format": 1
+  },
+  {
+   "name": "playbooks/devnet_inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "052d485b54ba98f650030c8191229576f085e8d8566242af2067fb5d165a5a34",
+   "format": 1
+  },
+  {
+   "name": "playbooks/example_hx_host_vars",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a8df99fe5c8977bffaa4a13112b4f761fc7fa3733838c75f6050b9e249063962",
+   "format": 1
+  },
+  {
+   "name": "playbooks/example_imm_inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53bc1620b17898948e5ddcc05bdc10d29ca52992747a5105d9ee0ae308e46906",
+   "format": 1
+  },
+  {
+   "name": "playbooks/example_inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "be93920afe1f6a8e2faf1aebc34473f1ec4773dac2de865bd4a7343002cba0fa",
+   "format": 1
+  },
+  {
+   "name": "playbooks/firmware_direct_download.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ea4e4795ae9bd9b1f8f43177e8373ebf4fb79f47f203f5161416f57c42ac5a38",
+   "format": 1
+  },
+  {
+   "name": "playbooks/hcl_status.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4300319790660007bc74646cd686ac07e787f85ad22b5d73e7c4a5858fef443c",
+   "format": 1
+  },
+  {
+   "name": "playbooks/hyperflex_cluster_profiles.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f9f9469cb6a00a04a5ea13de088d80c5ec63aa0eda3dda37e7ba7742f2c384c7",
+   "format": 1
+  },
+  {
+   "name": "playbooks/hyperflex_edge_cluster_profiles.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4022dd1b6ca98b6028957c658986882154e2959bf8e2698576429375a21a3332",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_attach_vnic_template.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0020c12c0ddf4d5ad4e27ddafc8128c2b1df25a9fa67b9cd561dc2b39a8012a9",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_bios_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9ea888e44078ec237dc2794f86f52bb585e1a6e61252391766eb9ae0ed495db6",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_boot_order_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e083ca043c5e64255f92549fca1d760dc3a71b456cc4f843c6277d5b166beae1",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_domain_profile.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "12222a11e62e33b929ac176d6580c150002c384497ab5d5c372096d4ff14bc23",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_eth_network.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ea146a7cc2530ea175f8743467e26132036d51aadb421802b3a1befd7821c9d0",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_imc_access_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8c51fe3f3797f1769e8ddeef12c7a5b74e334d217a274fbb47196287f8420bc2",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_info.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "624ec04770a1e6d3a097cedb909872cfdbe3a3d7acc782856b41c528e72b3bc4",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_lan_connectivity_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "10a29f4c213d9a7de4e383d165698a8ff90733637a1b4c46695ea7334a6be297",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_local_user_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "20eb6632255fa4c841336d2f00b0c1f5d8e9db10a04004cec3c0bd57733f5339",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_ntp_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f9a7c78fcfd9a9829be10325b7e0175a65553ad55897bdfdca55d23d9b69c08e",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_oob_imc_access_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7ccd9dd40af37864d16a8f2aeec47b3528f8c6ca8059bb25b143ab3539437738",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_port_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f62bbf98c3762bfd4e6c5480923529824c5724f8dcad82bba2b6a58f4ecda114",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_server_profile_template.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3042ca17765e94b38ec16c054cafb93bda224118e7c66f1b61e806e7a1515035",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_server_profile.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4a5ef00666b7d398957ef06fcaf61d810eb6794c29629c9e23fd0de3d47189b1",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_virtual_media_policy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8df0e4f29339ee562c20b914d2a66f622a62dc54bc88f5a4370832a715db3a7e",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_vm_hosts.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b92013765701923e8fa57be7634062728e7f9ff0a866c2befe27d9aeb43d0b5c",
+   "format": 1
+  },
+  {
+   "name": "playbooks/intersight_vnic_template.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "88ff0fcd16b0720282f4284e228379da7a1873ea9b6965be3c9b5e063fe32da2",
+   "format": 1
+  },
+  {
+   "name": "playbooks/only_new_server_profiles.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7967797736d1b838b6084baa665586d5d2ae53acee8c1da4d4023e461512042b",
+   "format": 1
+  },
+  {
+   "name": "playbooks/os_install.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a537e3e317d96de09b302686fb97f00b6415e38a2619d9fbc9c2abd313baa03e",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ova_workflow.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9da1ba3e1086dc8ebe92df9c944fb1fcae5c54cfceb0e36c41f36f1d3ae8b2fa",
+   "format": 1
+  },
+  {
+   "name": "playbooks/port_policy_json_patch.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8c2af6826962b766eeca8bd0bb5a82a263af2d073ab03b69c0816bde992b4d95",
+   "format": 1
+  },
+  {
+   "name": "playbooks/profile_inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7c2c5a08115b656eb0cefca6ba606233b8c8e5ea9ead6f1138ad7da31b317ac7",
+   "format": 1
+  },
+  {
+   "name": "playbooks/profile_with_buckets.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a31ae73bc9955cd01fd0fa9185a7419164a05baf3af603d5b6320adcbe0af231",
+   "format": 1
+  },
+  {
+   "name": "playbooks/pxe_boot.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "626c1cd0fecb31d42926bc391c3898b45ecb6eb4fe05b0e0af6195cd2caadca8",
+   "format": 1
+  },
+  {
+   "name": "playbooks/server_actions.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a5f3b79c9d1d8117f855da5be12d7d2a7c12853aa3268c1756a9ebd639ac186a",
+   "format": 1
+  },
+  {
+   "name": "playbooks/server_firmware.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "72c3615e34527c3d3ab6d6a2270a69c453e4e30518af49f730000d47a38e0eaf",
+   "format": 1
+  },
+  {
+   "name": "playbooks/servers_to_file.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9f689aa6fee3cf915934f5b8682060fba10672a31ef18e3abb26cedbad286c52",
+   "format": 1
+  },
+  {
+   "name": "playbooks/update_all_inventory.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2f9cf0a22589722357af6b03f2101166159445abbc2dfa96d77883b0b60abc0c",
+   "format": 1
+  },
+  {
+   "name": "playbooks/update_hx_edge_inventory.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3231ee15076dadb159d89d10c15e432acf70157eb5a0311035e15988bd365fb1",
+   "format": 1
+  },
+  {
+   "name": "playbooks/update_hx_inventory.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2bef43ab2074db7f42695e33fdefc4e33c9494ac59f97f696edb51f176b11ace",
+   "format": 1
+  },
+  {
+   "name": "playbooks/update_standalone_inventory.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "336475bfd43c37ae254aebfcf2a052e4ddc3bac6d324eadb0af5e132bd14ffa0",
+   "format": 1
+  },
+  {
+   "name": "playbooks/vault_intersight_server_profile.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "baa8c6f5432a2a2e390a0111f3ff20df4d7b7a3562b52473d0b91430f5facb60",
+   "format": 1
+  },
+  {
+   "name": "playbooks/vlans_to_file.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "abe5cc42f719bd33645eb8b5b1a550a75606bb4af31a130edd595e54eedd174a",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "baf512a2aa336a5bb65f7ff58ed8043177c5e3fd62445f984382af1d995b4cfd",
+   "format": 1
+  },
+  {
+   "name": "requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c0b33b77567ea7cd50f32df93e3dc2be1bbfd96ba90fd17e217f594b1373a2c0",
+   "format": 1
+  },
+  {
+   "name": "ansible.cfg",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "522ccb9700185753d3a95d5fbffd19a735083578aebd8763f235b269cba19cac",
+   "format": 1
+  },
+  {
+   "name": ".ansible",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/collections",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/collections/ansible_collections",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/.lock",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": ".ansible/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  }
+ ],
+ "format": 1
+}
