@@ -15,7 +15,7 @@
   tasks:
     - name: Debug
       ansible.builtin.debug:
-        var: env.INTERSIGHT_API_PRIVATE_KEY
+        msg: "{{ lookup('env', 'INTERSIGHT_API_PRIVATE_KEY') }}"
 
     - name: Debug
       ansible.builtin.debug:
