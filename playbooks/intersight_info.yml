@@ -13,13 +13,21 @@
       api_uri: "{{ api_uri | default(omit) }}"
       validate_certs: "{{ validate_certs | default(omit) }}"
   tasks:
+    - name: Debug
+      ansible.builtin.debug:
+        var: env.INTERSIGHT_API_PRIVATE_KEY
+
+    - name: Debug
+      ansible.builtin.debug:
+        msg: "{{ lookup('file', env.INTERSIGHT_API_PRIVATE_KEY) }}"
+
     # Get server data
     - name: Get all servers
       cisco.intersight.intersight_info:
         <<: *api_info
         server_names:
       register: servers
-      no_log: "{{ ansible_verbosity < 3 }}"
+      no_log: false
       environment:
         ANSIBLE_DEBUG: 1
 
