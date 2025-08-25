@@ -3,8 +3,6 @@
   hosts: localhost
   connection: local
   gather_facts: false
-  env:
-    ANSIBLE_DEBUG: 1
   vars:
     # Create an anchor for api_info that can be used throughout the file
     api_info: &api_info
@@ -21,6 +19,9 @@
         <<: *api_info
         server_names:
       register: servers
+      env:
+        ANSIBLE_DEBUG: 1
+
     - name: Print server count
       ansible.builtin.debug:
         msg: "Server count {{ servers.intersight_servers | length }}"
