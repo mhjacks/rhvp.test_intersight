@@ -176,13 +176,6 @@
    "format": 1
   },
   {
-   "name": "playbooks/intersight_info.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "624ec04770a1e6d3a097cedb909872cfdbe3a3d7acc782856b41c528e72b3bc4",
-   "format": 1
-  },
-  {
    "name": "playbooks/intersight_lan_connectivity_policy.yml",
    "ftype": "file",
    "chksum_type": "sha256",
@@ -365,24 +358,17 @@
    "format": 1
   },
   {
+   "name": "playbooks/intersight_info.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e128ee87ca6ec25ec98bea0aa4279d42556bb61da00bd7bdc7ddcf5adedb430c",
+   "format": 1
+  },
+  {
    "name": "LICENSE",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-   "format": 1
-  },
-  {
-   "name": "README.md",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "baf512a2aa336a5bb65f7ff58ed8043177c5e3fd62445f984382af1d995b4cfd",
-   "format": 1
-  },
-  {
-   "name": "requirements.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "c0b33b77567ea7cd50f32df93e3dc2be1bbfd96ba90fd17e217f594b1373a2c0",
    "format": 1
   },
   {
@@ -421,6 +407,13 @@
    "format": 1
   },
   {
+   "name": ".ansible/collections/ansible_collections/rhvp",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
    "name": ".ansible/.lock",
    "ftype": "file",
    "chksum_type": "sha256",
@@ -432,6 +425,27 @@
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a533fda11a9afa2f7b095a17e4af5680189886e9a8175e0e0f57521c8f9d9114",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c97c9cc213678a7580690444c7cfd8b2508a5532a6b78c995aa9164b4c29e810",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2690aab1779b51e593816acdfbf9d674d7af6f8dc5e18f284d9e4c12c1afcf5d",
    "format": 1
   }
  ],

@@ -1,0 +1,9 @@
+---
+- name: Test snow dep checking
+  hosts: localhost
+  gather_facts: false
+  become: false
+  tasks:
+    - name: Debug
+      ansible.builtin.debug:
+        msg: "Made it here"
