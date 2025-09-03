@@ -1,4 +1,5 @@
 ---
 collections:
   - cisco.intersight
-  - 'servicenow.itsm==2.12.1'
+  - name: servicenow.itsm
+    version: 2.12.1
