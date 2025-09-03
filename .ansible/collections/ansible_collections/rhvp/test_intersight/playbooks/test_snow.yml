@@ -1,0 +1,18 @@
+---
+- name: Test snow dep checking
+  hosts: localhost
+  gather_facts: false
+  become: false
+  tasks:
+    - name: Debug
+      ansible.builtin.debug:
+        msg: "Made it here"
+
+    - name: Version check
+      ansible.builtin.command:
+        cmd: ansible-galaxy collection list
+      register: cmd_out
+
+    - name: Debug
+      ansible.builtin.debug:
+        var: cmd_out.stdout_lines

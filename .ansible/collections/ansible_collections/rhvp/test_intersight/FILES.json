@@ -365,6 +365,13 @@
    "format": 1
   },
   {
+   "name": "playbooks/test_snow.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3a4f2d5632b742757365cb9038b66bb9a636f5c0ef7b3897e6ed9d74d932ab79",
+   "format": 1
+  },
+  {
    "name": "LICENSE",
    "ftype": "file",
    "chksum_type": "sha256",
@@ -428,13 +435,6 @@
    "format": 1
   },
   {
-   "name": "requirements.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "a533fda11a9afa2f7b095a17e4af5680189886e9a8175e0e0f57521c8f9d9114",
-   "format": 1
-  },
-  {
    "name": "README.md",
    "ftype": "file",
    "chksum_type": "sha256",
@@ -446,6 +446,13 @@
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2690aab1779b51e593816acdfbf9d674d7af6f8dc5e18f284d9e4c12c1afcf5d",
+   "format": 1
+  },
+  {
+   "name": "requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4d31b2e2f30890b40930da0fef9b21d3327f8b91aa10f2c59a055df706087dd1",
    "format": 1
   }
  ],
